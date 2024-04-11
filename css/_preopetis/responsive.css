@@ -1,0 +1,14 @@
+@media screen and (min-width: 480px) {
+    .container-left {
+        display: block;
+    }
+
+    .left-480 {
+        justify-content: end;
+    }
+
+    .container-small,
+    .container-chat {
+        width: calc(100%/5 *4);
+    }
+}
