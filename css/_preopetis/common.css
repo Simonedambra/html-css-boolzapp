@@ -23,13 +23,14 @@ main {
 
 .container-left {
     display: none;
-    width: 20%;
+    width: 30%;
     height: 100%;
 }
 
 /* col class */
 .col-small,
-.col-small-head {
+.col-small-head,
+.col-small-head-1 {
     height: calc(100%/10);
     width: 100%;
     background-color: var(--color-small-col);
@@ -81,6 +82,7 @@ main {
 
 }
 
+
 .justify {
     justify-content: space-between;
 }
@@ -89,8 +91,13 @@ main {
     justify-content: space-between;
 }
 
+.col-small-head-1 {
+    justify-content: space-between;
+}
+
 /* img class */
 .img-profile {
+    display: inline-block;
     height: 50px;
     width: 50px;
     border-radius: 50%;
@@ -135,4 +142,50 @@ main {
     height: 100%;
     display: flex;
     align-items: center;
+}
+
+.right-head {
+    justify-content: end;
+    padding: 0PX 30PX;
+}
+
+.col-small-head-1 {
+    height: 100%;
+}
+
+.img-text {
+    height: 100%;
+    display: flex;
+    align-items: center;
+
+}
+
+.img-text h2,
+span {
+    font-size: 16px;
+    display: block;
+}
+
+.img-text-blue {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    background-color: var(--color-blue);
+
+
+}
+
+.img-text-blue h2,
+span {
+    font-size: 16px;
+    display: block;
+}
+
+.img-text-blue i {
+    background-color: var(--color-white-2);
+    color: var(--color-blue);
+    padding: 10px;
+    margin: 0px 10px;
+    border-radius: 50%;
+    font-size: 35px;
 }
