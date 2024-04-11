@@ -25,21 +25,32 @@ main {
     display: none;
     width: 20%;
     height: 100%;
-    background-color: blue;
 }
 
 /* col class */
-.col-small {
+.col-small,
+.col-small-head {
     height: calc(100%/10);
     width: 100%;
     background-color: var(--color-small-col);
     display: flex;
-    align-items: center;
+
+
+
 
 }
 
 .container-left .col-small {
     display: none;
+}
+
+.col-profiels .col-small {
+    height: 70px;
+    background-color: var(--color-white);
+    border: 2px solid var(--color-small-col);
+
+
+
 }
 
 .col-chat {
@@ -60,13 +71,68 @@ main {
     overflow-x: hidden;
 }
 
-/* img class */
-.img-profile {
 
-    width: 50px;
-    border-radius: 50%;
+
+/* class flex */
+.d-flex-text {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+
 }
 
-.col-profiels .col-small {
-    height: 15%;
+.justify {
+    justify-content: space-between;
+}
+
+.col-small-head {
+    justify-content: space-between;
+}
+
+/* img class */
+.img-profile {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin: 9px;
+
+}
+
+/* class text */
+.text-position {
+    height: 100%;
+    width: 100%;
+    padding: 15px;
+}
+
+.text-class-1,
+.text-class-2 {
+    padding: 15px;
+    border-radius: 20px;
+    margin: 15px 0px;
+    width: 65%;
+
+
+}
+
+.text-class-1 {
+    background-color: var(--color-green);
+    align-self: self-end;
+}
+
+.text-class-2 {
+    background-color: #fff;
+
+}
+
+/* profile class */
+.name-profile {}
+
+/* class head */
+.left-head,
+.right-head {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
 }
