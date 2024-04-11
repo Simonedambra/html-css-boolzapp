@@ -1,35 +1,51 @@
 body {
-    width: 100vw;
     height: 100vh;
-    background-color: var(--color-body);
+    width: 100vw;
     display: flex;
-    justify-content: center;
-    align-items: center;
-
 }
 
-.container-full {
+main {
     height: 100%;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-}
 
-.container-left {
-    height: 100%;
-    width: calc(100%/5);
-    display: none;
-    background-color: aqua;
-}
 
-.container-small {
-    height: 10%;
-    width: 100%;
-    background-color: blue;
 }
 
 .container-chat {
+    height: 100%;
+    width: 100%;
+    background-color: aqua;
+}
+
+.container-left {
+    display: none;
+    width: 20%;
+    height: 100%;
+    background-color: blue;
+}
+
+/* col class */
+.col-small {
+    height: calc(100%/10);
+    width: 100%;
+    background-color: blueviolet;
+}
+
+.container-left .col-small {
+    display: none;
+}
+
+.col-chat {
     height: 80%;
     width: 100%;
-    background-color: blanchedalmond;
+    background-color: rgb(162, 162, 207);
+
+}
+
+.col-profiels {
+    width: 100%;
+    height: 100%;
+    background-color: aqua;
 }

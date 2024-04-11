@@ -1,14 +1,30 @@
-@media screen and (min-width: 480px) {
+@media screen and (min-width:480px) {
+    .container-chat {
+        width: 80%;
+    }
+
     .container-left {
+        display: inline-block;
+    }
+
+}
+
+@media screen and (min-width:768px) {
+    body {
+        justify-content: center;
+        align-items: center;
+    }
+
+    main {
+        width: 90%;
+        height: 90%;
+    }
+
+    .container-left .col-small {
         display: block;
     }
 
-    .left-480 {
-        justify-content: end;
-    }
-
-    .container-small,
-    .container-chat {
-        width: calc(100%/5 *4);
+    .col-profiels {
+        height: 70%;
     }
 }
