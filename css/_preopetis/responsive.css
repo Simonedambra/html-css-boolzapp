@@ -7,6 +7,9 @@
         display: inline-block;
     }
 
+    .col-profiels .col-small {
+        display: block;
+    }
 }
 
 @media screen and (min-width:768px) {
@@ -22,7 +25,9 @@
 
     .container-left .col-small {
         display: block;
+
     }
+
 
     .col-profiels {
         height: 70%;
