@@ -8,10 +8,7 @@
     /* fine posizionamento */
     /* dimensioni */
 
-    .col-chat {
-        overflow: scroll;
-        overflow-x: hidden;
-    }
+
 
     .col-small-cerca-1 input {
         width: 70%;
@@ -30,9 +27,18 @@
         display: inline-block;
     }
 
+
+
     .col-profiels .col-small {
         display: block;
+
     }
+
+    .col-chat {
+        overflow: scroll;
+        overflow-x: hidden;
+    }
+
 
     .col-small-cerca-1 i {
         margin: 0px 10px;
@@ -73,6 +79,8 @@
 
     .col-profiels {
         height: 70%;
+        overflow: scroll;
+        overflow-x: hidden;
     }
 
     .col-small-cerca-1 input {
@@ -100,6 +108,8 @@
     .col-small-cerca {
         display: flex;
     }
+
+
 
     /* fine display */
 

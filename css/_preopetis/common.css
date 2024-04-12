@@ -48,7 +48,7 @@ main {
 .col-small-cerca {
     align-items: center;
     justify-content: center;
-    display: none;
+
 
 }
 
@@ -64,8 +64,17 @@ main {
 /* col class */
 
 
+
+.col-small-cerca {
+    height: calc(100%/10);
+    width: 100%;
+    background-color: var(--color-small-col);
+    display: none;
+
+}
+
+
 .col-small,
-.col-small-cerca,
 .col-small-cerca-1,
 .col-small-head,
 .col-small-head-1 {
@@ -75,6 +84,7 @@ main {
     display: flex;
 
 }
+
 
 
 .col-profiels .col-small {
@@ -94,13 +104,14 @@ main {
     background-size: cover;
 
 
+
+
 }
 
 .col-profiels {
     width: 100%;
     height: 100%;
-    overflow: scroll;
-    overflow-x: hidden;
+    overflow: hidden;
 }
 
 /* fine col class */
