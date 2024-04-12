@@ -144,8 +144,8 @@ main {
 
 .text-class-1,
 .text-class-2 {
-    padding: 15px;
-    border-radius: 20px;
+    padding: 15px 30px 15px 15px;
+    border-radius: 10px;
     margin: 15px 0px;
     width: 65%;
 
@@ -155,13 +155,36 @@ main {
 .text-class-1 {
     background-color: var(--color-green);
     align-self: self-end;
+    position: relative;
 }
 
 .text-class-2 {
     background-color: #fff;
-
+    position: relative;
 }
 
+.ic-1 .ic-2 {
+    font-size: 2px;
+    color: var(--color-grey);
+}
+
+.ic-1 {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+}
+
+.ic-2 {
+    position: absolute;
+    bottom: 5px;
+
+    right: 10px;
+}
+
+.ic-2 span {
+    color: var(--color-grey);
+    font-size: 10px;
+}
 
 /* class head */
 
