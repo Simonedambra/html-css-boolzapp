@@ -13,3 +13,28 @@ i {
     font-size: 20px;
     color: var(--color-grey);
 }
+
+.col-small-cerca button {
+    border: none;
+    background-color: var(--color-white);
+    margin: 0px 10px;
+}
+
+.col-small-cerca button:hover {
+    cursor: pointer;
+
+}
+
+.col-small-cerca-1 button {
+    background-color: var(--color-small-col);
+    border: none;
+
+
+}
+
+.col-small-cerca-1 input {
+    border-radius: 10px;
+    border: none;
+    color: var(--color-grey);
+    padding: 10px;
+}

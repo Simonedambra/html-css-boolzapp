@@ -2,6 +2,7 @@ body {
     height: 100vh;
     width: 100vw;
     display: flex;
+
 }
 
 main {
@@ -23,18 +24,21 @@ main {
 
 .container-left {
     display: none;
-    width: 30%;
+    width: 15%;
     height: 100%;
 }
 
 /* col class */
 .col-small,
+.col-small-cerca,
+.col-small-cerca-1,
 .col-small-head,
 .col-small-head-1 {
     height: calc(100%/10);
     width: 100%;
     background-color: var(--color-small-col);
     display: flex;
+
 
 
 
@@ -133,7 +137,9 @@ main {
 }
 
 /* profile class */
-.name-profile {}
+.profile-none {
+    display: none;
+}
 
 /* class head */
 .left-head,
@@ -153,11 +159,17 @@ main {
     height: 100%;
 }
 
+/* class text profile */
 .img-text {
     height: 100%;
     display: flex;
     align-items: center;
 
+
+}
+
+.col-small .img-text:hover {
+    background-color: lightgrey;
 }
 
 .img-text h2,
@@ -188,4 +200,57 @@ span {
     margin: 0px 10px;
     border-radius: 50%;
     font-size: 35px;
+}
+
+/* class cerca */
+.col-small-cerca {
+    align-items: center;
+    justify-content: center;
+    display: none;
+
+}
+
+.col-small-cerca-1 {
+    justify-content: center;
+    align-items: center;
+}
+
+.col-small-cerca-1 .img-text {
+    height: 90%;
+    width: 100%;
+    justify-content: center;
+
+
+
+}
+
+.col-small-cerca-1 input {
+    height: 80%;
+    width: 90%;
+
+
+
+
+}
+
+.col-small-cerca .img-text {
+    height: 60%;
+    width: 90%;
+    background-color: #fff;
+
+
+}
+
+.col-small-cerca input {
+    height: 30px;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    color: var(--color-small-col);
+}
+
+.col-small-cerca-1 i {
+    font-size: 30px;
+    color: var(--color-icon);
+    display: none;
 }

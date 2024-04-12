@@ -1,16 +1,31 @@
 @media screen and (min-width:480px) {
     .container-chat {
-        width: 70%;
+        width: 85%;
     }
 
     .container-left {
         display: inline-block;
     }
 
+    .col-small .img-text {
+        justify-content: center;
+    }
+
     .col-profiels .col-small {
         display: block;
     }
+
+    .col-small-cerca-1 input {
+        width: 70%;
+
+    }
+
+    .col-small-cerca-1 i {
+        margin: 0px 10px;
+        display: block;
+    }
 }
+
 
 @media screen and (min-width:768px) {
     body {
@@ -28,8 +43,42 @@
 
     }
 
+    .container-chat {
+        width: 65%;
+    }
+
+    .container-left {
+
+        width: 35%;
+    }
+
+    .col-small .img-text {
+        justify-content: left;
+    }
 
     .col-profiels {
         height: 70%;
     }
+
+    .col-small-cerca-1 input {
+        width: 80%;
+
+    }
+
+    .col-small-cerca-1 i {
+        margin: 0px 40px;
+        display: block;
+    }
+
+    .profile-none {
+        display: block;
+    }
+
+    .col-small-cerca {
+        display: flex;
+    }
+
+
+
+
 }
