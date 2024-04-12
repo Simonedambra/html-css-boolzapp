@@ -8,6 +8,10 @@
     /* fine posizionamento */
     /* dimensioni */
 
+    .col-chat {
+        overflow: scroll;
+        overflow-x: hidden;
+    }
 
     .col-small-cerca-1 input {
         width: 70%;
@@ -16,6 +20,7 @@
 
     .container-chat {
         width: 85%;
+
     }
 
 
